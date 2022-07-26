@@ -1,0 +1,40 @@
+import time
+
+import planekit
+
+vehicle = planekit.Connection("tcp:127.0.0.1:5762")
+
+print("a11111111111111111111")
+while True:
+    print(vehicle.message.attitude)
+    print(vehicle.message.global_position)
+    print(vehicle.message.esc_telemetry)
+    print(vehicle.message.aoa_ssa)
+    print(vehicle.message.battery_status)
+    print(vehicle.message.position_target_global_int)
+    print(vehicle.message.vibration)
+    print(vehicle.message.local_position_end)
+    print(vehicle.message.ekf_status_report)
+    print(vehicle.message.terrain_report)
+    print(vehicle.message.wind)
+    print(vehicle.message.ahrs2)
+    print(vehicle.message.simstate)
+    print(vehicle.message.ahrs)
+    print(vehicle.message.system_time)
+    print(vehicle.message.gps_raw_int)
+    print(vehicle.message.scaled_pressure2)
+    print(vehicle.message.scaled_pressure)
+    print(vehicle.message.scaled_imu3)
+    print(vehicle.message.scaled_imu2)
+    print(vehicle.message.raw_imu)
+    print(vehicle.message.rc_channels)
+    print(vehicle.message.servo_output_raw)
+    print(vehicle.message.vfr_hud)
+    print(vehicle.message.mission_current)
+    print(vehicle.message.mav_controller_output)
+    print(vehicle.message.power_meminfo)
+    print(vehicle.message.power_status)
+    print(vehicle.message.imu_message)
+
+    print(vehicle.message.param_value)
+    print(vehicle.message.airspeed_autocal)

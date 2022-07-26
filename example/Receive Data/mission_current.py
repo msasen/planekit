@@ -1,0 +1,1 @@
+class mission_current:

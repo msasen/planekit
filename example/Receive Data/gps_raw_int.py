@@ -1,0 +1,1 @@
+class gps_raw_int:

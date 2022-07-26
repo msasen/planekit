@@ -1,0 +1,6 @@
+extends et tüm classları ana class'a -connection classı hariç
+info kısmını hallet  arö
+dokümantasyonu oluştur
+flightmode kısmını hallet
+
+object yeine gerçek tipleri bul typeof ile onları yaz

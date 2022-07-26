@@ -1,0 +1,1 @@
+class imu_message:

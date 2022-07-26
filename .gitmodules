@@ -1,0 +1,3 @@
+[submodule "planekit_doc"]
+	path = planekit_doc
+	url = https://github.com/msasen/planekit_doc.git

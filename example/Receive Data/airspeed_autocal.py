@@ -1,0 +1,1 @@
+class airspeed_autocal:

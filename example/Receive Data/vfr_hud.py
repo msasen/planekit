@@ -1,0 +1,1 @@
+class vfr_hud:
